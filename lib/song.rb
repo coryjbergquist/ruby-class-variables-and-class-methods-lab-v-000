@@ -28,7 +28,7 @@ a = @@genres
 b = Hash.new(0)
 a.each do |x|
   b[x] + 1
-  binding.pry
+
     @@genres.uniq
   end
   end
