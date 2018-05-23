@@ -32,7 +32,7 @@ end
 
   def self.genre_count
     new_hash = {}
-    new_hash[@@genres] = @@count
+    new_hash[@@genres] << @@count
   end
 
   def artist_count
