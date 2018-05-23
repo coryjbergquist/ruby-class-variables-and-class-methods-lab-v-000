@@ -26,9 +26,11 @@ end
   def self.genres
 a = @@genres
 b = Hash.new(0)
-a.each do |x| 
+a.each do |x|
   b[x] + 1
+  binding.pry
     @@genres.uniq
+  end
   end
 
   def self.artists
@@ -36,8 +38,8 @@ a.each do |x|
   end
 
   def self.genre_count
-    
-    
+
+
   end
 
   def artist_count
