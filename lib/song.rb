@@ -21,16 +21,16 @@ end
 
 
 
-  def genres(genre)
+  def self.genres
 
-    @@genres << genre unless @@genre.include?(genre)
+    @@genres.uniq
   end
 
   def self.artists
     @@artists.uniq
   end
 
-  def genre_count
+  def self.genre_count
     @@genres.uniq
   end
 
