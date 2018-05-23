@@ -15,8 +15,8 @@ attr_accessor :name, :artist, :genre
     @@artists << artist
   end
 
-def count(num)
-  @@count 
+def count
+  @@count
 end
 
 
