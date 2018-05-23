@@ -26,7 +26,7 @@ end
     @@genres << genre unless @@genre.include?(genre)
   end
 
-  def self.artists(artist)
+  def self.artists
     @@artists << artist unless @@artists.include?(artist)
   end
 
