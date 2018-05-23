@@ -32,8 +32,8 @@ end
   end
 
   def self.genre_count
-result = @@genres.each_with_object(Hash.new(0)) { |word,counts| counts[word] += 1 }
-    
+result = @@genres.each_with_object((0) { |word,counts| counts[word] += 1 }
+
 result
 
   end
