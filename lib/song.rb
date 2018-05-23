@@ -31,7 +31,8 @@ end
   end
 
   def self.genre_count
-    @@genres.uniq
+    new_hash = {}
+    new_hash[@@genre] = @@count
   end
 
   def artist_count
