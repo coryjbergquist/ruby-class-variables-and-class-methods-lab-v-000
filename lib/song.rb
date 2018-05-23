@@ -39,7 +39,7 @@ genre_count
   end
 
   def self.artist_count
-
+artist_count = @@artists.each_with_objects(Hash.new(0)) { |word, counts| counts[word] += 1 }
   end
 
 end
