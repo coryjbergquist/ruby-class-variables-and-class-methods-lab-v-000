@@ -24,10 +24,6 @@ end
 
 
   def self.genres
-a = @@genres
-b = Hash.new(0)
-a.each do |x|
-  b[x] + 1
 
     @@genres.uniq
   end
