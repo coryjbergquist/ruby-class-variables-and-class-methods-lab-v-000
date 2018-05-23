@@ -27,7 +27,7 @@ end
   end
 
   def self.artists
-    @@artists << artist unless @@artists.include?(artist)
+    @@artists 
   end
 
   def genre_count
